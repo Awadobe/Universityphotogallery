@@ -21,14 +21,26 @@
   ```
 -->
 <script>
+  import {goto} from "$app/navigation"
     let succssMsg = false;
-function Success(){
+    function Success(){
     succssMsg = !succssMsg;
 
+    let timeout = setTimeout( ()=>{
+      goto("/signin");
+      cleartimeout(timeout);
+    },2000)
+    
+
+    // alert("Login successfully")
 }
+
+
+  
+
 </script>
 {#if succssMsg }
-<div class="rounded-md bg-green-50 p-4">
+<div class="rounded-md absolute left-0 top-0 bg-green-50 p-4">
     <div class="flex">
       <div class="flex-shrink-0">
         <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
