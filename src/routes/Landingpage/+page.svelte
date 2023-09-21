@@ -15,4 +15,18 @@
           </a>   -->
       </div>
   </div>
+
 </section>
+
+<div class="grid grid-cols-2 gap-4 bg-black" >
+  <div class="about text-gray-50 ml-10 m-auto">
+    <h3 class="font-bold items-center">About Us</h3>
+    <p>Here at university photo gallary we focus on showcasing the beauty of student, innovation, and capital can unlock long-term value and drive economic growth Here at university photo gallary we focus on showcasing the beauty of student, innovation, and capital can unlock long-term value and drive economic growth</p>
+  </div>
+  <div class="studentimg w-19">
+    <img src="https://cdn.pixabay.com/photo/2012/02/22/20/08/classroom-15593_1280.jpg " alt=" students in class">
+
+  </div>
+</div>
+
+
