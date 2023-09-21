@@ -69,7 +69,7 @@
     <div class="flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-slate-900">
       <div class="mx-auto w-full max-w-sm lg:w-96">
         <div>
-          <img class="h-10 w-auto" src="" alt="Your Company">
+          <!-- <img class="h-10 w-auto" src="" alt="Your Company"> -->
           <h2 class="mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-300">Create your account</h2>
         </div>
   
