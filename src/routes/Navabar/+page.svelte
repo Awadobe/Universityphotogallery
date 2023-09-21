@@ -59,7 +59,8 @@
         <DropdownItem href="/"> class of 2024</DropdownItem>
       </Dropdown>
 
-      <NavLi href="/settings">Sign out</NavLi>
+
+      <NavLi href="/Landingpage">Sign out</NavLi>
       
 </NavUl>
 </Navbar>
@@ -69,25 +70,28 @@
     <Button pill size="xl" color="alternative">2021</Button>
     <Button pill size="xl" color="alternative">2022</Button>
     <Button pill size="xl" color="alternative">2023</Button>
-    <Button pill size="xl" color="alternative">2024</Button>
+    <!-- <Button pill size="xl" color="alternative">2024</Button> -->
 
     <form id="upload-form" enctype="multipart/form-data" class="flex">
         <!-- Image Upload -->
-        <div class="mb-4">
+        <div class="mb-4 ">
             <label for="image" class="block font-semibold mb-2 ml-4" >Choose an image:</label>
-            <input type="file" id="image" name="image" accept="image/*" class="border border-gray-300 p-2 w-50">
+            <input type="file" id="image" name="image" accept="image/*" class="border border-red-300 p-2 w-50">
         </div>
+
+        <!-- Caption Input -->
+        <div class="mb-4 w-1/4 h-5 ml-5 mt-3">
+          <label for="caption" class="block font-semibold mb-2" >Caption:</label>
+          <input type="text">
+          <!-- <textarea id="caption" name="caption" class="border border-gray-300 p-2 w-50 h-20 resize-yes"></textarea> -->
+      </div>
         
 
         <!-- Submit Button -->
-        <div>
+        <div class="ml-5">
             <button type="submit" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full mt-10  ml-5">Upload image</button>
         </div>
-        <!-- Caption Input -->
-        <!-- <div class="mb-4">
-            <label for="caption" class="block font-semibold mb-2" >Caption:</label>
-            <textarea id="caption" name="caption" class="border border-gray-300 p-2 w-50 h-20 resize-yes"></textarea>
-        </div> -->
+        
         
     </form>
     <!-- <Button pill size="xl" color="alternative" bg-green-100>upload</Button> -->

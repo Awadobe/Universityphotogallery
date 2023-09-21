@@ -8,6 +8,6 @@
 </script>
 <!-- <Signin/> -->
 <!-- <Signup/> -->
-<!-- <Navbar/> -->
+<Navbar/>
 
-<Landingpage/>
+<!-- <Landingpage/> -->

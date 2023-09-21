@@ -26,10 +26,10 @@
         <div>
           <img class="h-10 w-auto" src="" alt="Your Company">
           <h2 class="mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-300">Sign in to your account</h2>
-          <p class="mt-2 text-sm leading-6 text-gray-300">
+          <!-- <p class="mt-2 text-sm leading-6 text-gray-300">
             Not a member?
-            <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-5000">Sign up</a>
-          </p>
+            <a href="/Navabar" class="font-semibold text-indigo-600 hover:text-indigo-5000">Sign up</a>
+          </p> -->
         </div>
   
         <div class="mt-10">
@@ -61,7 +61,11 @@
               </div>
   
               <div>
-                <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
+                <a href="/Navabar">
+                  <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
+
+                </a>
+                
               </div>
             </form>
           </div>
