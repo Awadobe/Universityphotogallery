@@ -6,7 +6,7 @@
 <slot />
 
 
-<footer class=" bg-zinc-700  text-white  w-full ">
+<footer class=" bg-zinc-700  text-white  w-full mt-2 ">
   <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
           <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
@@ -32,5 +32,3 @@
       <span class="block text-sm text-white-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">University gallary™</a>. All Rights Reserved.</span>
   </div>
 </footer>
-
-
